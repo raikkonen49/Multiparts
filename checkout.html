@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/nouislider.css"/>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div class="col-xs-12 text-center checkout-top">
+        <a href="#"><img src="img/logo-black.png" alt=""></a>
+        Secure Checkout
+    </div>
+    <div class="row row-check-out">
+        <div class="col-xs-12 nopad checkout-container">
+            <div class="col-xs-12 nopad checkout-part-title">
+                <div class="circle">
+                    <span>1</span>
+                </div>
+                Customer
+            </div>
+            <div class="col-xs-12 nopad checkout-block">
+                <ul>
+                    <li>
+                        <form class="col-xs-12 col-sm-6 sign-block" action="" method="">
+                            <div class="col-xs-12 nopad sign-title">
+                                Sign In
+                            </div>
+                            <div class="col-xs-12 nopad sign-input">
+                                <input placeholder="Email" type="text" name="" value="">
+                            </div>
+                            <div class="col-xs-12 nopad sign-input">
+                                <input placeholder="Password" type="text" name="" value="">
+                            </div>
+                            <div class="col-xs-12 nopad text-right under-input">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <div class="col-xs-12 nopad sign-in-btn">
+                                <a class="btn" href="#">Sign In</a>
+                                <span>Or</span>
+                            </div>
+                            <div class="col-xs-12 nopad facebook-btn">
+                                <a class="btn" href="#">Sign In with Facebook</a>
+                            </div>
+                            <div class="col-xs-12 nopad sign-message">
+                                Don't have an account? <a href="#">Sing Up</a>
+                            </div>
+                        </form>
+                        <div class="col-xs-12 col-sm-6 nopad guest-checkout">
+                            <div class="col-xs-12 nopad checkout-title">
+                                Guest Checkout
+                            </div>
+                            <div class="col-xs-12 nopad guest-message">
+                                You can always create an account after you place your order.
+                            </div>
+                            <a class="btn" href="#">Continue as Guest</a>
+                        </div>
+                        <div class="col-xs-12 nopad checkout-part-title">
+                            <div class="circle">
+                                <span>2</span>
+                            </div>
+                            Shipping
+                        </div>
+                        <div class="checkout-part-block">
+                            <div class="col-xs-12 nopad checkout-title">
+                                Shipping Address
+                            </div>
+                            <form class="col-xs-12 nopad checkout-input-wrap" action="" method="">
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-left">
+                                        <span>First Name</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-right">
+                                        <span>Last Name</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-left">
+                                        <span>Email</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-right">
+                                        <span>Telephone</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <span>Address Line 1</span>
+                                    <input type="text" name="" value="">
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <span>Address Line 2</span> (Optional)
+                                    <input type="text" name="" value="">
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-left">
+                                        <span>Country</span>
+                                        <select class="js-example-basic-single" name="">
+                                            <option value="">Lithuania</option>
+                                            <option value="">Ireland</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-right">
+                                        <span>State/Province</span> (Optional)
+                                        <input type="text" name="" value="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-left">
+                                        <span>City</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-right">
+                                        <span>Zip / Postal code</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="col-xs-12 nopad order-checkbox hold" action="" method="">
+                                <input id="agree101" type="checkbox"><label for="agree101">Check if you want to add company details</label>
+                            </form>
+                            <form class="col-xs-12 nopad checkout-input-wrap" action="" method="">
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <span>Company name</span>
+                                    <input type="text" name="" value="">
+                                </div>
+                                <div class="col-xs-12 nopad checkout-input-holder">
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-left">
+                                        <span>Company code</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 nopad checkout-input-right">
+                                        <span>Vat number</span>
+                                        <input type="text" name="" value="">
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="col-xs-12 nopad order-checkbox" action="" method="">
+                                <input id="agree102" type="checkbox"><label for="agree102">My Billing address is the same as my Shipping address</label>
+                            </form>
+                            <div class="col-xs-12 nopad radio-container">
+                                <div class="col-xs-12 nopad checkout-title">
+                                    Shipping Address
+                                </div>
+                                <div class="col-xs-12 nopad radio-block">
+                                    <ul>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad1" type="radio" name="rad"><label for="rad1">Standart Deliverys<span>₱ 4,500</span></label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad2" type="radio" name="rad"><label for="rad2">Store Pickup<span>Free</span></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 nopad checkout-part-title">
+                            <div class="circle">
+                                <span>3</span>
+                            </div>
+                            Payment
+                        </div>
+                        <div class="checkout-part-block">
+                            <div class="col-xs-12 nopad radio-container hold">
+                                <div class="col-xs-12 nopad checkout-title">
+                                    Payment Method
+                                </div>
+                                <div class="col-xs-12 nopad radio-block hold">
+                                    <ul>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad3" type="radio" name="rad1"><label for="rad3">
+                                                    Bank Deposit
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/bank.png" alt="" title="">
+                                                        </li>
+                                                    </ul>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad4" type="radio" name="rad1"><label for="rad4">
+                                                    Cash on Delivery
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/cash-l.png" alt="" title="">
+                                                        </li>
+                                                    </ul>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad5" type="radio" name="rad1"><label for="rad5">
+                                                    PayPal
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/paypal-l.png" alt="" title="">
+                                                        </li>
+                                                    </ul>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-12 nopad radio-item">
+                                                <input id="rad6" type="radio" name="rad1"><label for="rad6">
+                                                    Credit Card
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/discover.png" alt="" title="">
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/express.png" alt="" title="">
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/master-l.png" alt="" title="">
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/visa-l.png" alt="" title="">
+                                                        </li>
+                                                    </ul>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-xs-12 nopad order-summary">
+                            <div class="col-xs-12 nopad checkout-title">
+                                Order Summary
+                                <span class="found-parts">(1 item)</span>
+                                <a href="#">
+                                    Edit
+                                </a>
+                            </div>
+                            <div class="col-xs-12 nopad item-info">
+                                <div class="col-xs-12 col-sm-3 nopad item-info-img">
+                                    <img src="img/part-3.png" alt="">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 nopad item-info-text">
+                                    <div class="col-xs-12 nopad item-info-title">
+                                        Power control module for day driving light
+                                    </div>
+                                    <div class="col-xs-12 nopad item-info-numbers">
+                                        Part number: <strong>7 500 255</strong><br>
+                                        Stock ID: <strong>001</strong>, Quantity: <strong>1</strong>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 nopad text-right item-info-price">
+                                    7,80 €
+                                </div>
+                            </div>
+                            <div class="col-xs-12 nopad order-price">
+                                <div class="col-xs-6 nopad">
+                                    Subtotal
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <strong>7,80 €</strong>
+                                </div>
+                                <div class="col-xs-6 nopad">
+                                    Shipping
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <strong>Free</strong>
+                                </div>
+                                <div class="col-xs-12 nopad discount-code">
+                                    Have a discount code?
+                                </div>
+                            </div>
+                            <div class="col-xs-12 nopad total-price">
+                                <div class="col-xs-6 nopad">
+                                    <span>Total</span>
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <span><strong>7,80 €</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 nopad order-summary">
+                            <div class="col-xs-12 nopad checkout-title">
+                                Order Summary
+                                <span class="found-parts">(1 item)</span>
+                                <a href="#">
+                                    Edit
+                                </a>
+                            </div>
+                            <div class="col-xs-12 nopad item-info">
+                                <div class="col-xs-12 col-sm-3 nopad item-info-img">
+                                    <img src="img/part-3.png" alt="">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 nopad item-info-text">
+                                    <div class="col-xs-12 nopad item-info-title">
+                                        Power control module for day driving light
+                                    </div>
+                                    <div class="col-xs-12 nopad item-info-numbers">
+                                        Part number: <strong>7 500 255</strong><br>
+                                        Stock ID: <strong>001</strong>, Quantity: <strong>1</strong>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 nopad text-right item-info-price">
+                                    7,80 €
+                                </div>
+                            </div>
+                            <div class="col-xs-12 nopad order-price">
+                                <div class="col-xs-6 nopad">
+                                    Subtotal
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <strong>7,80 €</strong>
+                                </div>
+                                <div class="col-xs-6 nopad">
+                                    Shipping
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <strong>Free</strong>
+                                </div>
+                                <div class="col-xs-12 nopad discount-code">
+                                    Have a discount code?
+                                </div>
+                            </div>
+                            <div class="col-xs-12 nopad total-price">
+                                <div class="col-xs-6 nopad">
+                                    <span>Total</span>
+                                </div>
+                                <div class="col-xs-6 nopad text-right">
+                                    <span><strong>7,80 €</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 nopad text-center secure">
+                            Secure Shopping
+                            <div class="col-xs-12 nopad secure-text">
+                                Secured SSL Certificate by <a href="#"><img src="img/comodo-1.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="col-xs-12 nopad text-center checkout-footer">
+            Need Help with Your Order? <a title="" href="#">Chat Now</a> or call +63-2-1234567
+        </div>
+    </div>
+
+
+
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/nouislider.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9uSjhlbwvK4LcnlyEhAMUNLSSzVkHDAI&callback=initMap"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
